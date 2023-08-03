@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --color-green: #89de3a;
+    --color-ice: #e8ecee;
+    --color-orange: #ff8822;
+    --color-black: #202020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--color-orange);
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+nav img{
+    width: 100px;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+#slogan{
+    background-color: var(--color-ice);
+    display: flex;
+    color: var(--color-black);
+}
+
+.bg-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slogan img{
+    width: 350px;
+}
+
+.bg-slogan h3{
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--color-orange);
+}
+
+.bg-slogan p{
+    padding: 20px 90px 20px 0px;
+    text-align: justify;
+}
+
+.bg-slogan h5{
+    font-size: 18px;
+}
+
+#newsletter{
+    background-color: var(--color-green);
+}
+
+.dogosletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.dogosletter h2{
+    font-size: 50px;
+}
+
+.dogosletter p{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.form input{
+    width: 280px;
+    padding: 13px 22px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--color-darkgray-text);
+    font-size: 16px;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--color-black);
+    padding: 20px 0;
+    display: flex;
+}
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoFooter img{
+    width: 60px;
+}
+
+.footer-text{
+    color: var(--color-ice);
+}
+
+.socialMedia img{
+    width: 50px;
+}
