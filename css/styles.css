@@ -101,6 +101,17 @@ nav h1{
     text-align: center;
 }
 
+#ctrl-submit {
+    width: 244px;
+    color: white;
+    background-color: var(--color-orange);
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 footer{
     background-color: var(--color-black);
     padding: 20px 0;
